@@ -1,0 +1,201 @@
+/* Estilos para la sección del menú */
+.menu {
+    padding: 20px; /* Añade margen interior de 20 píxeles alrededor del contenido */
+}
+
+.menu__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Añade un margen inferior de 20 píxeles para separar el encabezado del menú */
+}
+
+.menu__title {
+    margin-left: 20px; /* Añade un margen izquierdo de 20 píxeles para separar el título de la imagen */
+}
+
+.menu__list {
+    list-style: none;
+    padding: 0;
+}
+
+.menu__list__item {
+    margin-bottom: 10px; /* Añade un margen inferior de 10 píxeles entre los elementos del menú */
+}
+
+.menu__list__item a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px; /* Añade margen interior de 10 píxeles arriba y abajo, y 20 píxeles a los lados */
+    display: block;
+}
+
+.menu__list__item__contato {
+    margin-top: 20px; /* Añade un margen superior de 20 píxeles para separar el contacto del resto del menú */
+}
+
+
+
+
+.title__div {
+    display: flex;
+    align-items: center;
+}
+
+.title__profile {
+    width: 150px; /* Ajusta el tamaño según sea necesario */
+    height: 150px; /* Mantén la misma altura y anchura para hacerlo circular */
+    border-radius: 50%;
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.title__container {
+    flex: 1; /* Para ocupar el resto del espacio disponible */
+}
+.title__bio {
+    text-align: justify; /* Justificar el texto */
+    padding: 20px; /* Espacio interior para separar el texto de las orillas */
+}
+.about__container {
+    padding: 20px; /* Espacio interior para separar el texto de las orillas */
+    max-width: 800px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor horizontalmente */
+}
+
+
+.about__title {
+    text-align: center; /* Centrar el título */
+    margin-bottom: 20px; /* Espacio debajo del título */
+}
+
+.about__paragraph {
+    text-align: justify; /* Justificar el texto */
+    margin-bottom: 15px; /* Espacio entre párrafos */
+}
+
+.about__container img {
+    display: block;
+    margin: 20px auto 0; /* Centrar la imagen de la firma y agregar margen superior */
+}
+
+/* skills */
+.skills {
+    padding: 20px; /* Añade espacio interior a la sección */
+}
+
+.skills__title {
+    text-align: center; /* Centra el título */
+    margin-bottom: 20px; /* Añade espacio debajo del título */
+}
+
+.skills__line {
+    display: flex;
+    justify-content: space-around; /* Justifica el contenido con espacio alrededor */
+    align-items: center; /* Alinea los elementos verticalmente en el centro */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan si es necesario */
+    margin: 0 20px; /* Añade margen de 20 píxeles a los lados */
+}
+
+.skills__box {
+    flex: 1 1 200px; /* Permite que los elementos crezcan y encojan con un tamaño mínimo de 200px */
+    margin: 10px; /* Añade un margen alrededor de cada caja de habilidades */
+}
+
+.skills__list {
+    list-style: none; /* Elimina los puntos de la lista */
+    padding: 0; /* Elimina el padding predeterminado */
+    text-align: center; /* Centra el contenido de la lista */
+}
+
+.skills__img img {
+    max-width: 100px; /* Ajusta el tamaño máximo de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.skills__name {
+    margin-top: 10px; /* Añade espacio entre la imagen y el nombre de la habilidad */
+}
+
+/* hobbies */
+.hobbies {
+    padding: 20px; /* Añade espacio interior a la sección */
+}
+
+.hobbies__title {
+    text-align: center; /* Centra el título */
+    margin-bottom: 20px; /* Añade espacio debajo del título */
+}
+
+.hobbies__line {
+    display: flex;
+    justify-content: space-around; /* Justifica el contenido con espacio alrededor */
+    align-items: center; /* Alinea los elementos verticalmente en el centro */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan si es necesario */
+    margin: 0 20px; /* Añade margen de 20 píxeles a los lados */
+}
+
+.hobbies__box {
+    flex: 1 1 200px; /* Permite que los elementos crezcan y encojan con un tamaño mínimo de 200px */
+    margin: 10px; /* Añade un margen alrededor de cada caja de habilidades */
+}
+
+.hobbies__list {
+    list-style: none; /* Elimina los puntos de la lista */
+    padding: 0; /* Elimina el padding predeterminado */
+    text-align: center; /* Centra el contenido de la lista */
+}
+
+.hobbies__img img {
+    max-width: 100px; /* Ajusta el tamaño máximo de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.hobbies__name {
+    margin-top: 10px; /* Añade espacio entre la imagen y el nombre de la habilidad */
+}
+/* formacion academica */
+
+.academic {
+    padding: 20px; /* Añade espacio interior a la sección */
+}
+
+.academic__title {
+    text-align: center; /* Centra el título */
+    margin-bottom: 20px; /* Añade espacio debajo del título */
+}
+
+.academic__courses {
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: flex-start; /* Alinea los elementos verticalmente en la parte superior */
+    flex-wrap: nowrap; /* No permite que los elementos se envuelvan */
+}
+
+.academic__courses__box {
+    flex: 0 1 200px; /* Permite que los elementos se encojan con un tamaño fijo de 200px */
+    margin: 10px; /* Añade un margen alrededor de cada caja de cursos */
+    display: flex;
+    flex-direction: column; /* Hace que los hijos se dispongan en una columna */
+    align-items: center; /* Centra el contenido horizontalmente */
+}
+
+.academic__courses__list {
+    list-style: none; /* Elimina los puntos de la lista */
+    padding: 0; /* Elimina el padding predeterminado */
+    margin: 0; /* Elimina el margen predeterminado */
+    text-align: center; /* Centra el contenido de la lista */
+}
+
+.academic__courses__item__img img {
+    display: block;
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    max-width: 100%; /* Ajusta el tamaño máximo de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.academic__courses__item__title,
+.academic__courses__item__subtitle {
+    margin-top: 10px; /* Añade espacio entre la imagen y el texto */
+    text-align: center; /* Centra el texto */
+}
+
+
